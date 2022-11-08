@@ -602,12 +602,20 @@ ul {
     }
 }@media screen and (max-width: 1160px){
     .info{
-        padding-left: 0px;
-        padding-right: 0px;
+        padding-left: 45px;
+        padding-right: 45px;
     }
     .info-content{
         justify-content: center;
         gap: 43px;
+    }
+}
+@media screen and (max-width: 719px){
+    .info{
+        min-height: 472px;
+        padding-top: 78px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
     .controls, #btnPrev, #btnNext{
         display: block;
@@ -619,12 +627,6 @@ ul {
     }
     .hidden {
         display: none;
-    }
-}
-@media screen and (max-width: 719px){
-    .info{
-        min-height: 472px;
-        padding-top: 78px;
     }
 }
 /*------------------------------------------------------NEWS START------------------------------------------------------*/
